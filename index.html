@@ -31,7 +31,10 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://nikoszoros3533.github.io/NikosZorosPortofolio/" />
+    <meta
+      property="og:url"
+      content="https://nikoszoros3533.github.io/NikosZorosPortofolio/"
+    />
     <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
     <meta property="og:title" content="[Nikos Zoros] | MERN Developer" />
     <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
@@ -64,8 +67,6 @@
       type="text/javascript"
       src="./javascript/scrollveal.js"
     ></script>
-
-
   </head>
   <body>
     <!-- Hero Section -->
@@ -245,11 +246,72 @@
             </div>
           </article>
           <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Lust & Found</h3>
+              <p class="project-wrapper__text-info">
+                Developed Lust and Found, a full-stack missed connections
+                platform where users can post and discover encounters based on
+                location and time. Built with the MERN stack (MongoDB,
+                Express.js, React, Node.js), the app features JWT
+                authentication, geolocation-based post filtering, and a
+                responsive React front-end for smooth user experience. Deployed
+                the backend on Render via GitHub integration, ensuring seamless
+                updates. The app intelligently organizes posts by proximity and
+                recency, making it easier for users to find meaningful
+                connections.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://lustandfound.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a
+                  href="https://github.com/NikosZoros3533/Lust-Found/tree/main"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://lustandfound.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projectsUI/Lust&Found.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                    style="
+                      width: 100%;
+                      height: auto;
+                      transition: opacity 0.3s ease;
+                    "
+                    onmouseover="this.src='./assets/projectsUI/Lust&Found-vid.gif';"
+                    onmouseout="this.src='./assets/projectsUI/Lust&Found.png'"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
 
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Thought For Food (Food Delivery App).</h3>
+              <h3 class="project-wrapper__text-title">
+                Thought For Food (Food Delivery App).
+              </h3>
               <p class="project-wrapper__text-info">
                 I built a full-stack food delivery application with a seamless
                 user experience, allowing users to browse restaurants, add items
@@ -275,7 +337,11 @@
             </div>
 
             <div class="project-wrapper__image">
-              <a href="https://github.com/NikosZoros3533/Full-Stack-Delivery-App" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/NikosZoros3533/Full-Stack-Delivery-App"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div class="thumbnail rounded">
                   <img
                     src="./assets/projectsUI/food-delivery.png"
@@ -319,7 +385,11 @@
             </div>
 
             <div class="project-wrapper__image">
-              <a href="https://github.com/NikosZoros3533/eventsOnClick" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/NikosZoros3533/eventsOnClick"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div class="thumbnail rounded">
                   <img
                     src="./assets/projectsUI/events.png"
